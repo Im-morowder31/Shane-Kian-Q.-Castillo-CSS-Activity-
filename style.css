@@ -1,0 +1,74 @@
+body{
+    background-color: lightgray;
+}
+
+
+.Container{
+    display: grid;
+	justify-items: center;
+	width: 50%;
+	height: 55vh;
+	background-color: white;
+	padding: 30px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 430px;
+    margin-right: 250px;
+	box-shadow:  0 0 10px  rgba(0,0,0,0.2);
+}
+
+.Profile-Picture{
+    width: 180px;
+	height:180px;
+	border-radius: 100%;
+	margin-bottom: 0px;
+}
+
+.profile-name{
+    text-transform: uppercase;
+	font-family: Gasalt;
+	font-size: 2.5rem;
+	font-weight: 800;
+	word-spacing: 1px;
+	font-color:darkslategray;
+	margin-bottom: 0px;
+}
+
+@font-face{
+	src: url(fonts/Gasalt-Regular.ttf);
+	font-family: Gasalt;
+}
+
+.bio{
+    text-align: center;
+	padding-top: 0px;
+	font-family: Arial;
+	font-size: 17px;
+	margin-bottom: 60px;
+}
+.fb-icon{
+    width: 25px;
+	height: 25px;
+}
+
+.fb-link{
+    padding-top: 20px;
+	font-family: Arial;
+	font-weight: 600;
+	color:#2484c4;
+	font-size: 25px;
+	text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+	
+}
+
+.fb-link:hover{
+    
+	background-color: #2484c4;
+	text-align: center;
+	color: white;
+    border-radius: 200px;
+}
